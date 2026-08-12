@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build output
+.next/
+out/
+build/
+
+# logs
+*.log
+
+# editor / os
+.DS_Store
+*.tsbuildinfo
+
+# local tooling
+.claude/
+.mcp.json
