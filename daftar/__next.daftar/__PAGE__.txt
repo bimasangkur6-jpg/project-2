@@ -1,0 +1,20 @@
+1:"$Sreact.fragment"
+2:"$Sreact.suspense"
+3:I[16386,["/project-2/_next/static/chunks/3bktt_zompv8_.js","/project-2/_next/static/chunks/0_ziyko65d-nm.js"],"DaftarClient"]
+4:I[65931,["/project-2/_next/static/chunks/3bktt_zompv8_.js"],"OutletBoundary"]
+8:I[65931,["/project-2/_next/static/chunks/3bktt_zompv8_.js"],"ViewportBoundary"]
+9:I[65931,["/project-2/_next/static/chunks/3bktt_zompv8_.js"],"MetadataBoundary"]
+b:I[25077,["/project-2/_next/static/chunks/3bktt_zompv8_.js"],"default"]
+c:I[83385,["/project-2/_next/static/chunks/3bktt_zompv8_.js"],"default"]
+7:X
+e:X
+e:C
+0:{"buildId":"GK41axKTUM81uGbpZBuI7","data":[{"rsc":["$","$1","c",{"children":[["$","$2",null,{"children":["$","$L3",null,{}]}],[["$","script","script-0",{"src":"/project-2/_next/static/chunks/0_ziyko65d-nm.js","async":true}]],["$","$L4",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$2",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Daftar Pasien Baru | RS Sehat Sejahtera"}],["$","meta","1",{"name":"description","content":"Website resmi RS Sehat Sejahtera (portofolio demo): informasi layanan, dokter, dan pendaftaran pasien online tanpa antre."}],["$","meta","2",{"name":"author","content":"Bima Sangkur"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@a","staleTime":"$7","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}],"isPartial":"$@d","staleTime":"$7","varyParams":"$e"}],"isUpgradeableISRFallback":false,"a":"$@f","rootVaryParams":null,"needsRuntimeRequest":"$@10"}
+5:null
+10:true
+7:300
+7:C
+f:0
+a:"$undefined"
+d:"$undefined"
+6:"$undefined"
