@@ -14,6 +14,4 @@ build/
 .DS_Store
 *.tsbuildinfo
 
-# local tooling
-.claude/
 .mcp.json
