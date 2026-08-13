@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
-import { StatusChecker } from "@/components/registration/StatusChecker";
+import { Suspense } from "react";
+import { StatusClient } from "./status-client";
 
 export const metadata: Metadata = { title: "Cek Status Pendaftaran | RS Sehat Sejahtera" };
 
-export default async function StatusPage({ searchParams }: { searchParams: Promise<{ id?: string }> }) {
-  const { id } = await searchParams;
-  return <StatusChecker initialId={id} />;
+export default function StatusPage() {
+  return (
+    <Suspense>
+      <StatusClient />
+    </Suspense>
+  );
 }

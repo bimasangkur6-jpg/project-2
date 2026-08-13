@@ -1,15 +1,13 @@
 import type { NextConfig } from "next";
 
-const securityHeaders = [
-  { key: "X-Content-Type-Options", value: "nosniff" },
-  { key: "X-Frame-Options", value: "DENY" },
-  { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-];
-
+// Static export untuk GitHub Pages: headers() nggak didukung di mode ini
+// (GitHub Pages nggak bisa diatur set response header custom lewat Next.js),
+// jadi kalau butuh security header, deploy ke Vercel/Netlify pakai next.config.ts
+// versi server (lihat git history) yang masih punya headers().
 const nextConfig: NextConfig = {
-  async headers() {
-    return [{ source: "/:path*", headers: securityHeaders }];
-  },
+  output: "export",
+  basePath: "/project-2",
+  trailingSlash: true,
 };
 
 export default nextConfig;
