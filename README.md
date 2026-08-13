@@ -15,13 +15,6 @@ pnpm dev
 
 Open `http://localhost:3000`.
 
-## Pages
-
-- **`/`**: landing page with hero, today's crowd level per poli (Sepi / Sedang / Ramai plus estimated wait, which is the whole reason to register online instead of just showing up), hospital stats, why-us, services by poli, doctor cards, testimonials, and a closing CTA.
-- **`/daftar`**: 4-step patient registration. Data diri, then pilih poli & dokter (crowd level shown right on the poli picker), pilih jadwal, konfirmasi. Submitting generates a registration number and saves it to `localStorage`. Accepts `?poli=` or `?doctor=` to preselect, used by the "Daftar" buttons on the landing page.
-- **`/status`**: patient side. Look up a registration by its number. Checks `localStorage` first, then falls back to seeded demo numbers so the page has something to try even before you've registered anything.
-- **`/petugas`**: staff side. Every registration (seeded plus whatever's been submitted in this browser), filterable by status, with buttons to confirm, complete, or cancel. It's not actually access-controlled, same as `/status`: anyone with the URL can open it. A real deployment would put a staff login in front of this, which is intentionally out of scope here.
-
 ## Stack
 
 Next.js 16 (App Router, Turbopack), React 19, Tailwind CSS 4, TypeScript. No database, no auth, no state library. Plain `useState` for the wizard/filter state, `localStorage` for the one piece of real persistence shared between the patient and staff sides.
