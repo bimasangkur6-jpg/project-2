@@ -22,3 +22,7 @@ Next.js 16 (App Router, Turbopack), React 19, Tailwind CSS 4, TypeScript. No dat
 ## If this ever needed to be a real hospital system
 
 Everything here is UI over hardcoded content, plus one browser-only "database." A real deployment would need, at minimum: a real database with row-level access control, server-side validation of NIK/phone/etc., authenticated staff accounts (so `/petugas` isn't just an open URL), real-time crowd/queue counts instead of a fixed daily snapshot, a genuine booking-conflict-safe slot system, and WA/email confirmation. None of that exists here, on purpose. It's out of scope for a UI portfolio piece.
+
+## License
+
+MIT
