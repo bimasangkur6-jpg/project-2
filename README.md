@@ -6,6 +6,12 @@ A hospital website case study built for two sides of the same problem: patients 
 
 **Doctor names and testimonials are deliberately de-identified.** Doctors are shown as initials only ("dr. A. P."), testimonials use first name plus initial. Sample content for a UI portfolio piece, not meant to read as a real person.
 
+## Demo
+
+https://bimasangkur6-jpg.github.io/project-2/
+
+Deployed as a static export (`next build` with `output: "export"`) since it's hosted on GitHub Pages. The `headers()` security-header config in a full server deployment (Vercel/Netlify) isn't included here for that reason.
+
 ## Running it
 
 ```bash
